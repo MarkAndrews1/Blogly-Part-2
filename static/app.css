@@ -1,0 +1,109 @@
+a {
+    color: #c29008;
+    font-size: large;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f3db97;
+}
+
+a:active{
+    color: white;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+button {
+    margin-top: 10px;
+    background-color: rgb(255, 210, 126);
+    border-radius: 10px;
+    border-style: none;
+    font-size: large
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 230, 184);
+}
+
+button:active{
+    background-color: rgb(255, 239, 239);
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+hr {
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #fda469 ;
+}
+
+img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+textarea {
+    max-width: 100%;
+    min-width: fit-content;
+}
+
+input {
+    font-size: large;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+}
+
+nav {
+    height: 10px;
+  display: flex;
+  background-color: #fc771f;
+  align-items: center;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.cancel-btn {
+    font-size: large;
+    background-color: rgba(255, 241, 216, 0.37);
+    border: 1px rgb(255, 210, 126) solid;
+    border-radius: 10px;
+}
+
+.cancel-btn:hover{
+    cursor: pointer;
+    background-color:rgb(255, 210, 126);
+}
+
+.cancel-btn:active{
+    background-color: rgb(255, 239, 239);
+}
+
+.delete-btn {
+    color: whitesmoke;
+    font-size: large;
+    background-color: #F94A29;
+    border-radius: 8px;
+}
+
+.delete-btn:hover{
+    background-color: #191919;
+    color: #F94A29;
+}
+
+#container {
+    background-color: rgba(255, 241, 216, 0.37);
+    border: 3px solid  orange;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 100px;
+    width: 20%;
+    padding: 10px;
+}

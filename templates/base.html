@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}title goes here{% endblock %}</title>
+    <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+    <section id="container">
+        <form>
+            <button formaction="/" class="nav-btn">Go Home</button>
+            |
+            <button formaction="/users" class="nav-btn">Go to Users</button>
+        </form>
+        <hr>
+        {% block content %}{% endblock %}
+    </section>
+</body>
+</html>

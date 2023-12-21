@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %} Blogly Home Page {% endblock %}
+
+{% block content %}
+<h1>Welcome to Blogly</h1>
+<div>
+    <h2>5 Newest Posts</h2>
+    <ul>
+        {% for post in posts %}
+        <li>
+            <h2>{{post.title}}</h2>
+            <p>{{post.content}}</p>
+            <small><i>By</i> {{post.user.full_name}}</small>
+            <br>
+            <small><i>Posted at</i> {{post.friendly_time}}</small>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
